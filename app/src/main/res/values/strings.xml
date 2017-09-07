@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="str_item_1">Recents</string>
+    <string name="str_item_2">Favorites</string>
+    <string name="str_item_3">Nearby</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_fragment_1">Fragment 1</string>
+    <string name="str_fragment_2">Fragment 2</string>
+    <string name="str_fragment_3">Fragment 3</string>
+    <string name="txt_7">activity</string>
+    <string name="txt_8">Activity</string>
+    <string name="txt_6">Activity</string>
+    <string name="txt_5">juegos de play 2</string>
+    <string name="txt_4">juegos de super</string>
+    <string name="txt_3">juegos de nintendo</string>
+    <string name="txt_2">interactividad</string>
+    <string name="txt_1">super</string>
+    <string name="txt111">crear</string>
+    <string name="txt2">2</string>
+    <string name="tt1">Jhonatan Mideros</string>
+    <string name="str">NOMBRE</string>
+    <string name="txt">Jhonatan Mideros</string>
+    <string name="tx">ingeniero de sistemas</string>
+    <string name="t">jamideros@hotmail.com</string>
+</resources>

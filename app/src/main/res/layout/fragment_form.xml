@@ -1,0 +1,79 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jonmid.bottomnavigation.TresFragment">
+    <?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.jonmid.qiuz.PantallaDosActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE"
+                android:textColor="#66bb6a"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                android:theme="@style/MyStyleTextInput">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#66bb6a"
+                    android:hint="APELLIDO"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#66bb6a"
+                android:theme="@style/MyStyleTextInput">
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="TELEFONO"
+                    android:textColor="#66bb6a"
+                    android:inputType="textPassword"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREAR CUENTA"
+                android:background="#f44336"
+                android:layout_marginTop="10dp"
+                android:theme="@style/MyStyleButton"/>
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INGRESAR CUENTA"
+                android:layout_marginTop="10dp"
+                android:background="#f44336"
+                android:theme="@style/MyStyleButton"/>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/plus_48"
+            android:layout_margin="16dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
